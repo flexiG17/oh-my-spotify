@@ -1,0 +1,17 @@
+$background-color: #0F0F0F;
+$secondary-color: #A7A7A7;
+$primary-color: #1DB954;
+$rose-color: #FFD2D7;
+$dark-secondary-color: #1A1A1A;
+$border-color: #373737;
+$blue-color: #A5BBD1;
+
+:export {
+  backgroundColor: $background-color;
+  primaryColor: $primary-color;
+  secondaryColor: $secondary-color;
+  darkSecondaryColor: $dark-secondary-color;
+  roseColor: $rose-color;
+  borderColor: $border-color;
+  blueColor: $blue-color;
+}

@@ -1,0 +1,57 @@
+@import '../theme/variables.module';
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 24px;
+  gap: 15px;
+  width: fit-content;
+
+  cursor: pointer;
+
+  border-radius: 8px;
+  transition: 0.3s;
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .button {
+    width: 100%;
+  }
+}
+
+.button_dark {
+  border: 1px solid $secondary-color;
+  background-color: rgba(26, 26, 26, 0);
+
+  &:hover {
+    background-color: rgba(222, 222, 222, 0.17);
+  }
+
+  &:active {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(220, 220, 220, 0.22);
+  }
+}
+
+.button_green {
+  border: none;
+  background-color: $primary-color;
+
+  &_text {
+    color: #000;
+  }
+
+  &:hover {
+    background-color: #22e55d;
+  }
+
+  &:active {
+    background-color: rgba(8, 222, 72, 0.79);
+  }
+}

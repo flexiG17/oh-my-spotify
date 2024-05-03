@@ -1,0 +1,36 @@
+@import '../../shared/theme/variables.module';
+
+.grid {
+  padding: 48px 156px;
+  background: $background-color;
+}
+
+@media (max-width: 1700px) {
+  .grid {
+    padding: 48px 56px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 375px) {
+  .grid {
+    padding: 20px;
+  }
+}
+
+/*
+.parent {
+  background: $background-color;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 26fr 1fr;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+}
+
+.div1 { grid-area: 2 / 2 / 3 / 3; }*/
